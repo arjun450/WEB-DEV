@@ -18,7 +18,7 @@ let valueInNumber=Number(score) //string ko number me convert karne ke liye Numb
 
 //aur number ko string mei convert ke liye String() function ka use karte hai aur String k S capital letter me hota hai
 
-console.log(typeof valueInNumber) //ab valueInNumber ka datatype number hai
+console.log(typeof valueInNumber)   //ab valueInNumber ka datatype number hai
 
 console.log(valueInNumber)
 
