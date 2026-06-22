@@ -65,12 +65,12 @@ const course = {
     courseInstructor: "hitesh"
 }
 
-// course.courseInstructor
+// course.courseInstructor //ye norml tareeka h access krne ka
 
-const {courseInstructor: instructor} = course
+const {courseInstructor: instructor} = course //isse kehte hai object destructuring isse hum dot notation ko baar baar use krne se bach skte hain aur object ke elements ko easily access kr skte hain 
 
 // console.log(courseInstructor);
-console.log(instructor);
+console.log(instructor); 
 
 // {
 //     "name": "hitesh",
@@ -83,3 +83,4 @@ console.log(instructor);
     {},
     {}
 ]
+
