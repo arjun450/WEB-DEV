@@ -1,0 +1,44 @@
+// DOM - DOCUMENT OBJECT MODEL
+// JO AAPKA DOCUMENT BANTA HAI MATLAB JO HTML HAI WO BANTA TOH OBJECTS SE HI HAI -> HEAD, BODY, ETC..
+// DOM KA MATLAB HOTA HAI JO DOCUMENT BANA HUA HAI USKA STRUCTURE KYA HAI AUR USKA MODEL KY HAI
+// console.log(window)       //(complex object hota hai window)
+// window ke andar hi document hota hai
+// console.log(window.document) -> document mei hota hai doctype ,head ,body aur etc aur ye command sirf html deta hai extra info nhi deta hai
+// sirf console.log(document) -> se bhi access kr skte hain
+// console.dir(document) -> deta hai xtra info if needed wrna jydatar kaam toh html mei hi hota document se related
+// ab issi HTML document ka model hi hai DOM aur ye banake seekha jaata hai
+// html tag se hi page start hota hai isse upar doctype bs ye bata rh ki ye html5 type ka page hai
+// DOM MEI HARR CHEEZ KO EK NODE BOLA JAATA HAI
+// document.getElementId('firstHeading').innerHTML = "<h1>chai aur code</h1>"
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>DOM learning</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div >
+        <h1  id="title" class="heading">DOM learning on Chai aur code <span style="display: none;">test text</span></h1>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <input type="password" name="" id="">
+
+        <ul>
+            <li class="list-item">one</li>
+            <li class="list-item">two</li>
+            <li class="list-item">three</li>
+            <li class="list-item">four</li>
+        </ul>
+    </div>
+</body>
+</html>
